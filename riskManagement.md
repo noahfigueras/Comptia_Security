@@ -39,3 +39,33 @@ It is very important to deal first with the risks that have a higher percentatge
 
 We can found a Risk Assesment guide on a document called [SP 800-30](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf) by NIST.
 
+## Managing Risk
+In order to manage the risk we are going need to perform a vulnerability and a threat assesment.
+
+### Vulnerability Assesment
+The first step is to find the possible vulnerabilities we may have. In order to find those we can use the common vulnerabilities and exposure database on [cve.mitre.org](cve.mitre.org).  
+Once we get a list of the vulnerabilities we want to test we can use more active tools like _Nessus_. This program runs in localhost and it is going to provide us with a document with all the vulnerabilities that have found in the local area network. However, if we want to go more into detail about those vulnerabilities we are going to need a team of pentesters to test our network or systems.
+
+### Threat Assesment
+There is going to be different type of threads:
+1. Adversarial (Hacker)
+2. Incidental (User accidentally types another url and enters database)
+3. Structural (equipment failure)
+4. Enviromental (Fire in organization)
+
+### Risk Response
+Once we find a risk, we have to do something in order to prevent them and we do it several ways:    
+1. **Mitigation** (effort to reduce impact the risk)
+2. Risk transference (we contract a specific third party service to do a certain task Ex. cloud servers)
+3. Risk acceptance (accept the risks in certain situation because it is very expensive to prevent and it is very unlikely to happen)
+4. Risk avoidance (avoiding risks Ex. not holding id information because someon may steal it and I don't want to be involve with it)
+
+###Framework
+It is a methodolgy that helps you deal with risk managment.  
+* [NIST Risk Management Framework Special Publication 800-37](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf)  
+* [ISACA Risk IT Framework](http://www.isaca.org/Knowledge-Center/Research/Documents/Risk-IT-Framework-Excerpt_fmk_Eng_0109.pdf)  
+
+
+
+
+
