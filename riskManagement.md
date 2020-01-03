@@ -60,12 +60,57 @@ Once we find a risk, we have to do something in order to prevent them and we do 
 3. Risk acceptance (accept the risks in certain situation because it is very expensive to prevent and it is very unlikely to happen)
 4. Risk avoidance (avoiding risks Ex. not holding id information because someon may steal it and I don't want to be involve with it)
 
-###Framework
+### Framework
 It is a methodolgy that helps you deal with risk managment.  
 * [NIST Risk Management Framework Special Publication 800-37](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf)  
 * [ISACA Risk IT Framework](http://www.isaca.org/Knowledge-Center/Research/Documents/Risk-IT-Framework-Excerpt_fmk_Eng_0109.pdf)  
 
+## Using Guides for Risk Assesments
+Using up to date guides to configure different OS systems or network infrastructure devices is very beneficial in order to make sure to set them up as a secure device. Therefore, we should always follow these directions coming from the different companies that manufacture them.
 
+## Security Controls
+It is a mechanism or action exexuted in order to protect our IT infrastructure and it is going to help us remediate problems. Security IT specialist uses security controls in order to prevent bad things to happen to our assets. For example: teaching employees to prevent social engineering attacks, setting up a firewall...
 
+An IT specialist understand security controls and they can apply, monitor and adjust them based of the needs of the infastructure. There is different types of security controls:
+1. **Administrative Control:** Control actions towards IT security and includes Laws, Policies, Guidelines, Best practices.  
+2. **Technical Control:** Control actions IT systems towards IT security as computer staff, Firewalls, Password links, Authentication.
+3. **Physical Control:** Control actions in the real world as Gates, Guards, Keys, Man traps.
 
+### Security control Functions
+* **Deterrent:** Stops the actor from even attempting the threat.
+* **Preventative:** Stops the actor from performing the threat.
+* **Detective:** Recognizes an actor's threat.
+* **Corrective:** Mitigates the impact of a manifested threat.
+* **Compensating:** provides alternative or temporary fixes to any of the above functions. 
+
+### Interesitng Security Controls
+* **Mandatory vacation:** It is used to detect fraud and unauthorized activity.
+* **Job Rotation:** Enhances employees to know all different task in case the main guy is sick and can't do his job and also avoids people of being jealous of performing particular tasks.
+* **Multi-person control:** Avoids a single person to take a bad action on a specific task and allows multiple people to make sure that something is done the right way.
+* **Separation of Duties:** A single individual should not perform all critical or privilege duties across the board (Administrative control).
+* **Principle of least privilege:** Users are granted only the level of privilege necessary for them to perform their jobs.
+
+## Defense in depth 
+There is to particular terms we have to get familiar with in order to start:  
+* **Diversity:** Using a variety of controls in a random pattern.
+* **Redundancy:** We have applied some kind of security control over and over. We use a bunch of layers to secure a system.
+
+## IT Security Governance
+It influences how the organization conducts IT security and there are different kind of sources:
+
+* **Laws and Regulations**
+* **Standards (Governamental or Industrial)**
+* **Best practices**
+* **Common sense**
+
+Once we take a look at all of these different sources, our job will be to create two different documents:  
+
+1. **Policies:** It is a document that defines how are we going to do something.  
+... Usually broad in nature.
+... Used as directives.
+... Define roles and responsabilities.
+
+2. **Organization standards:** Define the acceptable level of performance of a policy (much more detailed than a policy).
+
+Governance has the ultimate goal to make the right security controls  and precedures for our organization.
 
