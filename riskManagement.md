@@ -114,3 +114,41 @@ Once we take a look at all of these different sources, our job will be to create
 
 Governance has the ultimate goal to make the right security controls  and precedures for our organization.
 
+## Security Policies
+### Acceptable use Policy
+Defines what a person can and can't do in a company asset.
+### Data Sensitivity and Classification Policies
+We have to define how important types of data are. Ex: Highly confidential data...
+### Access Control Policy
+Defines how people can access to data. Ex: How employees authenticate, which data can a person access and how ...
+### Password Policy
+Defines how people have to deal with passwords. Ex: Long and complex passwords, how to get back a password, deal with multiple logins...
+### Care and use of equipment
+Explains how you borrow or maintain an equipment.
+### Privacy Policies
+Those are often for customers and define what private information the company gets from them and what are they going to do with that information.
+### Personel Policy
+If it has to do with a person and a personel.
+
+## Quantitative Risk Calculation
+How much is a particular incident going to affect a specifi asset.
+
+* **Exposure Factor:** Percentage of an asset that's lost as the result of an incident.(Being 1 a total loss of the complete euipment).  
+
+**Single Loss Expectancy =** Asset value * Exposure Factor  
+
+**ARO(Annualized Rate of Ocurrence):** What is the chances of something happen in one year.  
+
+SLE * ARO = **Anual Loss Expectancy** (It is going to tell you the cost of a particular incident annualy).  
+
+## Business Impact Analysis
+The study and analysis of the impact on your organization if you have a disruption in your business.
+
+* **Determine mission process** Ex: make sure the servers are running.
+* **Identify critical systems**
+* **Single point-of-failure**
+* **Identify resource requirements**
+* **Identify recovery priorities**
+
+The Impact of something that go wrong can come in form of people, finance or reputation.
+
