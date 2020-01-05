@@ -152,3 +152,125 @@ The study and analysis of the impact on your organization if you have a disrupti
 
 The Impact of something that go wrong can come in form of people, finance or reputation.
 
+## Organizing Data
+How to deal with data is a big issue in IT security and we have several ways to do it:
+
+**Data sensitivity/labeling**  
+* Public Data: Has no restrictions
+* Confidential: It is limitez to authorized viewing as agreed on by the parties involved.
+*  Private: Limited to only the individual to whom the information is shared. Personally Identifiable information (PII).
+* Proprietary: It is private information but at a corporate level.
+* Protected Health Information: Private information for the Health of a particular individual. 
+
+**Data Roles**  
+* Owner: Legally responsible for the data.
+* Steward/custodian: Person or organization who is responsible to maintain the accuracy and integrity of data.
+* Privacy Officer: Individual who insures that data adheres to privacy policies and procedures.
+
+**Data Users**  
+Data users are categorized by roles which define the amount of data a user can access.  
+
+* Users: Assigned standard permissions to complete task.
+* Privileged users: Increased access and control relative to a user.
+* Executive user: Person who set policy on data and incident response action. Has the access to read pretty much all the data. (Ex: Head Sales department)
+
+**Data owner/System owner:** People or organizations who have legal ownership of the data and the system.
+
+## Security Training
+The biggest problem that we have in IT security is people and these people need training to avoid possible threads.
+
+**Onboarding:** These are going to be Temporary contractor or new employees and we want to make sure they are secure people to hire. Therefore we should:  
+
+* Make sure they pass a background check.
+* In some cases, sign a Non-disclosure agreement (NDA), if some data is confidential.
+* They have to learn the Standard operating procedures of the organization.
+* Specialized issues like Keeping a clean desk all the time.
+* Rules of behavior.
+* General security policies.
+
+**Offboarding:** When an employee leaves the organization.
+* We should Disable all of his accounts.(Never delete an account!!)
+* Make sure he returned all of his credentials.
+* Exit Interview (In order to gather important information that the employee may have stored somewhere else).
+
+**Personally identifiable information (PII)**  
+This is a very important piece of information for the company to gather to make sure a employee might not be a thread or not loyal to the company.  
+
+* **Information needed**  
+... Full name
+... Home address
+... Email address
+... National identification number 
+... Passport number
+... Vehicle registration plate number
+... Driver's license number
+... Face, fingerprints or handwriting
+... Credit card numbers
+... Digital identity
+... Date of birth 
+
+### Role-based Data Controls
+Personnel controls and role-based data controls help secure functions and data within an organization.  
+
+1. **System owner**
+* Management level.
+* Maintains security of the system.
+* Defines a system administrator.
+* Works with all data owners to ensure data security.
+2. **System administrator**
+* Day to day administrator of a system.
+* Implement security controls.
+3. **Data owner**
+* Defines the sensitivity od the data.
+* Defines the protection of the data.
+* Works with the system owner to protecta data.
+* Defines access to the data.
+4. **User**
+* Accesses and uses the assigned data responsibly.
+* Monitors and reports security breaches.
+5. **Privileged User**
+* Has special acces to data beyond the typical user.
+* Works closely with system administrators to ensure data security.
+6. **Executive User**
+* Read only access but can look at all business data.
+
+## Third party Agreements
+### Business Partnership Agreement (BPA)
+The most generic document, it is a document that has to be signed by both businesses in order to agree for a specific action and includes:
+* Primary entities.
+* Time Frame.
+* Financial issues.
+* Management. 
+
+### Service Level Agreements (SLA)
+When a third party is providing a service to you for example: Internet service.
+* Service to be provided.
+* Minimum up-time.
+* Response time.
+* Start and End date for the service.
+
+### Interconnection Security Agreement (ISA)
+Quantify how two federal entities can make data interconnections in a secure way.
+
+1. Statement of requirements
+* Why are we interconnecting?
+* Who is interconnecting? 
+2. System security considerations
+* What information is interconnecting?
+* Where is this information going?
+* What services are involved?
+* What encryption is needed?
+3. Topological drawing
+4. Signature authority
+
+ISA agreements are technical documents and are usually reinforced with a memorandum of understanding.  
+
+### Memorandum of Understanding/Agreement
+It is very similar to a contract and it is used for two public agencies to have a legal methodology with dealing with eachother.
+
+1. Purpose of the interconnection.
+2. Relevant authorities.
+3. Specify the responsabilities (Billing, downtime...)
+4. Defines the terms of the agreement.
+5. Termination.
+
