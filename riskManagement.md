@@ -106,9 +106,9 @@ It influences how the organization conducts IT security and there are different 
 Once we take a look at all of these different sources, our job will be to create two different documents:  
 
 1. **Policies:** It is a document that defines how are we going to do something.  
-... Usually broad in nature.
-... Used as directives.
-... Define roles and responsabilities.
+	* Usually broad in nature.
+	* Used as directives.
+	* Define roles and responsabilities.
 
 2. **Organization standards:** Define the acceptable level of performance of a policy (much more detailed than a policy).
 
@@ -197,42 +197,42 @@ The biggest problem that we have in IT security is people and these people need 
 This is a very important piece of information for the company to gather to make sure a employee might not be a thread or not loyal to the company.  
 
 * **Information needed**  
-... Full name
-... Home address
-... Email address
-... National identification number 
-... Passport number
-... Vehicle registration plate number
-... Driver's license number
-... Face, fingerprints or handwriting
-... Credit card numbers
-... Digital identity
-... Date of birth 
+	* Full name
+	* Home address
+	* Email address
+	* National identification number 
+	* Passport number
+	* Vehicle registration plate number
+	* Driver's license number
+	* Face, fingerprints or handwriting
+	* Credit card numbers
+	* Digital identity
+	* Date of birth 
 
 ### Role-based Data Controls
 Personnel controls and role-based data controls help secure functions and data within an organization.  
 
 1. **System owner**
-* Management level.
-* Maintains security of the system.
-* Defines a system administrator.
-* Works with all data owners to ensure data security.
+	* Management level.
+	* Maintains security of the system.
+	* Defines a system administrator.
+	* Works with all data owners to ensure data security.
 2. **System administrator**
-* Day to day administrator of a system.
-* Implement security controls.
+	* Day to day administrator of a system.
+	* Implement security controls.
 3. **Data owner**
-* Defines the sensitivity od the data.
-* Defines the protection of the data.
-* Works with the system owner to protecta data.
-* Defines access to the data.
+	* Defines the sensitivity od the data.
+	* Defines the protection of the data.
+	* Works with the system owner to protecta data.
+	* Defines access to the data.
 4. **User**
-* Accesses and uses the assigned data responsibly.
-* Monitors and reports security breaches.
+	* Accesses and uses the assigned data responsibly.
+	* Monitors and reports security breaches.
 5. **Privileged User**
-* Has special acces to data beyond the typical user.
-* Works closely with system administrators to ensure data security.
+	* Has special acces to data beyond the typical user.
+	* Works closely with system administrators to ensure data security.
 6. **Executive User**
-* Read only access but can look at all business data.
+	* Read only access but can look at all business data.
 
 ## Third party Agreements
 ### Business Partnership Agreement (BPA)
@@ -253,13 +253,13 @@ When a third party is providing a service to you for example: Internet service.
 Quantify how two federal entities can make data interconnections in a secure way.
 
 1. Statement of requirements
-* Why are we interconnecting?
-* Who is interconnecting? 
+	* Why are we interconnecting?
+	* Who is interconnecting? 
 2. System security considerations
-* What information is interconnecting?
-* Where is this information going?
-* What services are involved?
-* What encryption is needed?
+	* What information is interconnecting?
+	* Where is this information going?
+	* What services are involved?
+	* What encryption is needed?
 3. Topological drawing
 4. Signature authority
 
