@@ -3,7 +3,7 @@ We are going to learn different attacks hackers can use to penetrate your system
 
 ## Denial of Service 
 The whole idea behind this attack is to deny a service, in order to do that we try to connect as many people as we can to a server until it collapses and can't handle anybody else.  
-###DOS Attack types  
+### DOS Attack types  
 * **Volume attack**
 	* We try to overwhelm the machine sending a lot of requests.  
 	* **Ex:** Ping flood, UDP flood.
