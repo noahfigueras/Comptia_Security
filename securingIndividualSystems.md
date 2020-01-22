@@ -3,7 +3,7 @@ We are going to learn different attacks hackers can use to penetrate your system
 
 ## Denial of Service 
 The whole idea behind this attack is to deny a service, in order to do that we try to connect as many people as we can to a server until it collapses and can't handle anybody else.  
-###DOS Attack types  
+### DOS Attack types  
 * **Volume attack**
 	* We try to overwhelm the machine sending a lot of requests.  
 	* **Ex:** Ping flood, UDP flood.
@@ -26,9 +26,9 @@ The whole idea behind this attack is to deny a service, in order to do that we t
 **Phishing & Spear fishing:** Unsolicited email from individuals with malicious intent in order to get some kind of private information from a person.  
 **Spim:** Using instant messaging to spam.  
 **Vishing:** Spam trying to get private information via phone calls.  
-**Clickjacking:** Malicious clickbait links on the internet.
-**Domain Hijacking:** People steal your domains and they ask a lot of money from you to get it back.
-**Privilege Escalation:** Get more privileges in a system in order to do evil or malicious stuff.  
+**Clickjacking:** Malicious clickbait links on the internet.  
+**Domain Hijacking:** People steal your domains and they ask a lot of money from you to get it back.  
+**Privilege Escalation:** Get more privileges in a system in order to do evil or malicious stuff.   
 
 ## Man in the Middle
 A man in the middle (MITM) attack is one where the attacker (in our example, Mallory) secretly captures and relays communication between two parties who believe they are directly communicating with each other (in our example, Alice and Bob).  
