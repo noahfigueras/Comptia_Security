@@ -38,7 +38,7 @@ A man in the middle (MITM) attack is one where the attacker (in our example, Mal
 ### How to perform an MITM attack with ARP spoofing over a wireless network  
 
 1. Setup ip forwarding on KALI Machine.
-	* The ip_forward file is set to 0 by default and we have to change it to 1.  
+	 The ip_forward file is set to 0 by default and we have to change it to 1.  
 	`echo 1 > /proc/sys/net/ipv4/ip_forward`  
 2. Know our default gateway or ip address of our router.  
 	`ip route`
@@ -49,6 +49,31 @@ A man in the middle (MITM) attack is one where the attacker (in our example, Mal
 5. Sniff information with Wireshark.  
 
 [See More complex example](https://www.youtube.com/watch?v=7PqMPhItKPM)  
+
+## System Resiliency
+It is the ability to defend a system from a possible incident that may happen.  
+**Scalability and Elasticity:** If the webserver starts to get a lot of requests, we are going to need more servers ready in order to prevent a crash. Also, if we know that a particular day we are going to have a lot of traffic coming through our website is good to have the ability to scale and reduce servers as we need.  
+
+**Redundancy:** Is a form of distributive allocation. Ex: Distributing servers around different places in the US.  
+
+**Non-persistence:** Data that is collected but will not be saved on restart.  
+**Examples:** Backups, Systems Snapshots, updates removal ... 
+
+## RAID - Redundant Array of Independent Disks
+* RAID arrays enable you to speed up data access, protect data, or both.  
+* The most common RAID styles includes 0,1,5, & 10.  
+* RAID 1 & RAID 0 requires at least 2 drives, RAID 5 requires 3 or more drives, & RAID 10 requires 4 drives.  
+
+## NAS AND SAN
+Those two technologies are designed to store data. They have dedicated systems that only share data.  
+
+**Network attached storage:** File-level computer data storage server connected to a computer network providing data access to a heterogeneous group of clients. NAS is specialized for serving files either by its hardware, software, or configuration.  
+
+**Storage area network:** A Storage Area Network (SAN) is a specialized, high-speed network that provides block-level network access to storage. SANs are typically composed of hosts, switches, storage elements, and storage devices that are interconnected using a variety of technologies, topologies, and protocols. SANs may also span multiple sites.
+
+A SAN presents storage devices to a host such that the storage appears to be locally attached. This simplified presentation of storage to a host is accomplished through the use of different types of virtualization.
+
+## Physical Hardening
 
 
 
