@@ -132,7 +132,7 @@ Every computer in our network should have a firewall. Many corporations have a w
 
 **Clustering** you have a lot of computers sharing the data and if one dies, you don't lose the data because another computer will have it.  
 
-**Virtualize a server** is a really good option to secure data because we can save a snapchot of the system and if something goes wrong we can just go back to the first snapshot.
+**Virtualize a server** is a really good option to secure data because we can save a snapshot of the system and if something goes wrong we can always go back to the previous update.
 
 ## Disk Encryption
 Encrypt the data that is stored in our massed storage, but this is going to slow down your system.  
