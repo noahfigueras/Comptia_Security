@@ -74,6 +74,75 @@ Those two technologies are designed to store data. They have dedicated systems t
 A SAN presents storage devices to a host such that the storage appears to be locally attached. This simplified presentation of storage to a host is accomplished through the use of different types of virtualization.
 
 ## Physical Hardening
+### Removable media control
+Optical media can be very dangerous as someone could insert some evil CD into your computer and load some malicious software into the system. Fortunately for us, we can configure our systems to control what the optical media system can and can't do. There is different ways to set this up on different OS and we can set it up to not work for the whole OS or just banned some particular users.  
 
+### Data Execution Prevention (DEP)
+DEP is a security feature that can help prevent damage to your computer from viruses and other security threats. Harmful programs can try to attack Windows by attempting to run code from system memory locations reserved for Windows and other authorized programs.  
+
+### Disabling ports
+In order to do that we are going to disable the ports through the UFI BIOS of the computer. In the peripherals window we can disable the USB ports and almost every port in our computer.
+
+## RFI, EMI and ESD 
+### Radio Frequency Interference & Electromagnetic Interference 
+Radio radiation and Electromagnetic signals can cause some interference on our systems. That's why we should always connect them in different circuits or separate them so there is no interference at all.
+
+### Electrostatic Discharge 
+We can suffer from a Discharge if there is an over power circuit. So always use wrist band circuits and materials in order to prevent that to happen. Also, it is very important to use the right voltagees to power electronic equipments.  
+
+## Host Hardening
+### Disabling Services
+Disabling unnecessary services that we don't use on our system is one of the good practices of a good system administrator. As, some malicious people can get into your system through those open services.  
+
+### Default passwords
+It is very important to not use default passwords as bruteforcing cracking lists can discover those very quickly. Not only on the OS, change all default passwords on routers, ip cameras, devices...  
+
+### Disabling unecessary accounts 
+If we don't use an account anymore just delete it and it will avoid one more way for people to hack into it.  
+
+### Patch Management 
+1. Monitor: Always keep up to date for the new patches that are coming out for OS, software, hardware ...
+	* Might not get reminders.
+2. Test
+	* Deploy the system in sandbox environment to test if the patch works good first.
+3. Evaluate 
+4. Deploy patch
+	* Watch for scheduling issues.
+5. Document
+	* Always document all of the changes that we are going to make in all of the computers we manage.
+
+### Anti-malware 
+Always make sure we have an alti malware installed on our computer and up to date with all the possible attacks that might happen.  
+* Training for our users
+* Procedures 
+	* Teach best practices for users and they have to learn how to detect malware if it happens.
+* Monitoring
+	* Watching our security logs, dns, IDS (Intrusion Detection System can help detect threats to the hosts).
+	* But if we want to get serious about it is better to get a Third-party anti-malwere.
+
+### Firewall
+Every computer in our network should have a firewall. Many corporations have a whitelist and a blacklist of applications you can and can't install and use for security reasons.  
+
+## Data and System Security 
+1. Always make sure we have data integrity, like backups so if something happens to our system we don't lose that data.
+2. Speed/quick access.
+3. High availability.
+
+**RAID** it is a grate way to secure data and it is fairly cheap. The only disadvantage is that if the OS blows up we are going to lose the data.  
+
+**Clustering** you have a lot of computers sharing the data and if one dies, you don't lose the data because another computer will have it.  
+
+**Virtualize a server** is a really good option to secure data because we can save a snapchot of the system and if something goes wrong we can just go back to the first snapshot.
+
+## Disk Encryption
+Encrypt the data that is stored in our massed storage, but this is going to slow down your system.  
+**Recommended on:**  
+* Mobile and portable devices (Laptops, smartphones,tablets).
+* Desktop systems with limited security.  
+
+Disk encryption can be broken into two groups: *TPM & NON-TPM*.  
+Two examples of disk encryption programs are *BitLocker* and *FileVault*.  
+
+## Hardware and Firmware Security
 
 
