@@ -209,6 +209,25 @@ Malicious software that is running on the background of your system without you 
 **Backdoor:** Software that allows you to log in to the system remotely.
 **Polymorphic malware, Keylogger & Armored Viruses:** Polymorphic malware changes itself, armored viruses are hard for anti-malware to detect, Keylogger collects information of the keys entered in a computer.  
 
+## IDS and IPS
+Inside a network the first line of defense is going to be a firewall. And it's job is to prevent naughty things from the outside world coming in to our network. But, firewalls are not perfect and sometimes some malicious staff make it through the firewall and that is why we need another layer of protection after the firewall. That is when **Intrusion Detection Systems** come into play.  
+**IDS:** Stays inside the network, watches within the network traffic and sends alerts on suspicious activity.  
+**Intrusion prevention system (IPS):** Active IDS, looks inside the network for naughtiness like an IDS but the IPS is going to do something in order to stop the attack.  
+
+**A firewall filters, an IDS notifies and an IPS acts to stop.**  
+
+## Automation Strategies 
+Automation gives us the ability to repeat consistenly something for us every time.  
+
+## Data Destruction and Media Sanitation
+**Clearing:** Deleting data with an internal command to make the data go away. **Ex:** Delete, erase, format.  
+**Wiping:** Wiping programs will start to write 1 and O from the beginning of the drive until the end of the drive. Therefore, we are completely destroying the data. But, we will be able to use the hard drive for something else.  
+**Purge:** To do something to the device externally to make data go away. **Ex:** Degausser (Machine with a very strong electromagnetic field that will delete all the data as well as destroy the drive).  
+**Destroy:** Run the media in such a way that is no longer functional.  
+	* Burning the drive.
+	* Pulping (put it in to water).
+	* Shredding machine.
+
 
 
 	
