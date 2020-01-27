@@ -145,4 +145,71 @@ Two examples of disk encryption programs are *BitLocker* and *FileVault*.
 
 ## Hardware and Firmware Security
 
+### Full Disk Encryption (FDE)
+It is a methodology to encrypt all our mass storage to secure our Data. *BitLocker* is a software that we can use in a Windows OS to encrypt a full Disk.  
 
+### Secure Boot
+Checks the performance of every hardware, software and firmware every time we log in to a system to check performance and possible errors in order to boot up.  
+
+### Hardware security module
+It is a piece of hardware that takes care of the sign in on your system.
+
+## Secure OS Types
+1. Server OS.
+	* Bulit-in functionality.
+	* Connections.
+2. Workstation.
+	* Desktop version (Windows 10, Ubuntu, MacOS).
+	* Workhorse.
+3. Embedded systems.
+	* Appliance.
+	* Own OS.
+4. Kiosk.
+	* Limited function (Small versions of linux most of the time).
+5. Mobile OS.
+	* Apple.
+	* Android.
+	* Mobile devices Operating Systems.
+
+**In order to choose one of those types of Operating Systems always go with the one who has the least amount of functionality but enough to perform their job.**  
+
+## Securing peripherals
+
+### Wired vs Wireless peripherals
+**Bluetooth**  
+* *Bluejacking* is the idea of connecting into a Bluetoth device.
+* *Bluesnarfing* means connecting in to a bluetooth device to steal data.  
+In order to prevent that if you don't use bluetooth simply don't enable it in your device.  
+
+**WPS**  
+It is a technology that allows to connect to the router pressing a single button using wpa2 encryption.  
+
+**Hidden Wi-fi**  
+Sometimes printers and other devices have SD slots to store information. But there are different types of SD cards an not all of them are used to store data. There is SD wifi cards which are perfectly fine for someone to use it as a normal connection and steal data from all the new user who connect to it.  
+
+**Displays**  
+USB ports in displays can become a big problem as some evil person can plug a *Rubber Ducky* and steal a lot of information displaying on the screen.  
+
+**Turn off non necessary ports for security and make sure always keep up to new updates and patches**  
+
+## Malware 
+Malicious software that is running on the background of your system without you knowing about it.  
+**Virus:** Piece of software that gets into your computer through hardwere or internet.
+* It will attach to other files.
+* Will propagate.
+* Spread to other devices.
+* Activate.  
+**Adware:** Programs that try to put adds on your computer like: pop-ups, links, etc.  
+**Spyware:** Some form of malware that is hidden from you (we don't see it), but it is spying your system one way or another. Ex: seeing connections, what you type, camera, files, etc.  
+**Trojan Horse & RATs:** Software running on your system that is doing something nice, but is running a malicious piece of code on the background.  
+**Remote Access Trojans (RATs):** Trojan but it is controlled remotely and the evil person can turn it on and off.  
+**Ransomware/Cryptomalware:** Type of malware that locks your system in some way that you can't get into it until you pay the evil people some money and they unlock it for you.  
+**Logic Bomb:** Program that is sitting on a computer until is triggered by an event.  
+**Rootkit:** Software that escalates privilages to execute other things on computer.  
+**Backdoor:** Software that allows you to log in to the system remotely.
+**Polymorphic malware, Keylogger & Armored Viruses:** Polymorphic malware changes itself, armored viruses are hard for anti-malware to detect, Keylogger collects information of the keys entered in a computer.  
+
+
+
+	
+	
