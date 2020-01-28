@@ -38,7 +38,7 @@ A man in the middle (MITM) attack is one where the attacker (in our example, Mal
 ### How to perform an MITM attack with ARP spoofing over a wireless network  
 
 1. Setup ip forwarding on KALI Machine.
-	* The ip_forward file is set to 0 by default and we have to change it to 1.  
+	The ip_forward file is set to 0 by default and we have to change it to 1.  
 	`echo 1 > /proc/sys/net/ipv4/ip_forward`  
 2. Know our default gateway or ip address of our router.  
 	`ip route`
