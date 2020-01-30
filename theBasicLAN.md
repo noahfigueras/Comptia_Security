@@ -78,7 +78,26 @@ Ipsec runs in two very different modes:
   * Key Exchange.
   
 **IPSEC is commonly used in VPNs and there's used in two ways: Pure IPSEC and IPSEC with L2TP**  
+
 ## NIDS/NIPS
+This means Network Intrusion Detection/Prevention System. Detection means that it alerts somehow of an intrusion. Prevention instead, detects if something is happening but also tries to stop it one way or another.  
+
+### NIPS Detection
+* Active.
+ * Blocks from router.
+* Detection methods.
+ * Behavioral/anomaly.
+ * Signature-based (Pre-made instructions).
+ * Rule-based.
+ * Heuristic.
+  * Combines anomaly and signature.
+  
+## SIEM 
+Security Information and Event Management, it is a type of software that is going to help us monitor all of our network to check the performance.  
+
+
+  
+ 
 
 
 
