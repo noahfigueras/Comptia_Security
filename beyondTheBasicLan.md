@@ -79,3 +79,40 @@ WPS is a push button configuration and it has several weaknesses:
 * Firmware updates. 
 * Upgrade to newer wireless router.  
 
+## Wireless Hardening
+**Hardening 802.11 Networks**  
+1. **Survey installation issues.**
+ * Survey tools are going to help us to setup and install our network.  
+2. **Maintaining existing wireless networks.**  
+ * Keep a good Documentation.
+  * SSIDs.
+  * MAC addresses associated to: WAPS, AP locations, Heatmaps.
+  * Disable Wireless SSID Broadcast.
+  * AP Isolation.
+  * Make Long Passwowrds.
+  * Periodic Scanning.
+3. **Monitor wireless networks**
+ * WIDS - Wireless Instruction System (very important to have).
+  * Monitor wireless radios.
+  * Watches for rogue access points.
+  * Knows MAC address of authorized equipment.
+4. **Define how to defend wireless clients.**
+ * Trained clients are an essential part of good wireless security.  
+
+## Wireless Access Points
+There's different kinds of access points and we want to make sure we pick the right one for every different situation:  
+
+**Thick client:** Big powerful WAP for corporations mostly and we have to configure every client individually.  
+**Thin client:** Are configured through a controller and make it easier to configure multiple units.  
+
+**WAP Antenna Types**  
+* **omni:** The signal goes to every possible direction (installed outdoors).
+* **dipole:** They are useful to cover floors or spaces at the same level  \|/ .
+* **directionals:** There is yagi and parabollics.
+* **patch:** Patches are usually mounted on a wall and they only shoot one direction.   
+**Band Selection**  
+The 802.11 standard has two different bands: 2.4 or 5 GHz band.  
+
+
+
+
