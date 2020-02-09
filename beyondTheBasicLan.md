@@ -113,6 +113,56 @@ There's different kinds of access points and we want to make sure we pick the ri
 **Band Selection**  
 The 802.11 standard has two different bands: 2.4 or 5 GHz band.  
 
+## IaaS 
+Infrastructure as a Service, simply means that some company rents you some computers with your specific needs for you to use. It is very convinient because you don't have to pay for expensive computer parts and set them up. **EX:** Amazon Web Server, Digital Ocean, Microsoft Azure, etc ...  
 
+## PaaS
+Plataform as a Service is ideal for developers, they can create their own applications and deploy them without the need to worry about seting up any infrastructure at all. A very popular platform is called **HEROKU** and it is going to deploy our project in less than a minute with a simple command line.  
+## SaaS
+Software as a Service is a subscription based license that allows you to make use of that specific software. **Ex:** Adobe Creative Services, Microsoft Office 365, Dropbox, Google Docs.  
 
+## Deployment models 
+1. **Hosted application:** Physical servers installed and setup from scratch to serve web servers or different kind of applications.  
+2. **Cloud:** These are servers which we can access remotely. On a **Private Cloud** we are going to be the only ones to access those servers (We have to setup a bunch of VMs). On the other hand, a **Public Cloud** is going to be a bunch of servers from Amazon or a third party which are available to rent to anyone for a certain time.  
+3. **Virtual Desktop Environment:** accessing a remote physical desktop. 
+4. **Virtual Desktop Integration:** actual virtualized environment in the cloud.  
 
+## Static Hosts
+Static Hosts are all the external devices that are conected t oa network like: printers, ip cameras, Access points, etc. Those devices are very important to an organization and it is essential that we keep them secure at all times.  
+
+**Securing Static Hosts**  
+* Change default passwords.
+* Turn off unnecessary services.
+* Monitor security and firmware updates.  
+* Secure using Defense in depth concepts. 
+
+**Remember for the exam**  
+* Treat static host like regular hosts.  
+* Use Network Segmentation to help protect static hosts.  
+
+## Mobile Connectivity 
+**SATCOM:** Satellite communication on smart phones.  
+**Bluetooth:** Blue jacking and Blue snarfing.  
+**Near Field Communication (NFC):** Very short range wireless connectivity, not secured when activated.  
+**ANT:** Simple form of wireless communication, slow but well protected and it is usually used with odomoters, heart-rates monitors.  
+**Infrared:** Usually cell phones have built in transmitors not recievers.  
+**USB:** USB on the go is a technology that can connect normal usb to smartphones with a small adapter and that can cause some danger.  
+**Wi-fi Direct:** It uses ad hoc mode and it is used to connect two devices easily together. The downside to this technology is that it uses WPS mode and we already know that it is very easy to hack.  
+**Tethering:** Using your phone to get internet access on Laptoop. Tethering is really convinient, but it's only secure when done via wire. Wireless Tethering (Hotspots) if used not properly configured you can let anyone connect to the internet through your phone. 
+
+**Always setup password protection on your phone**  
+
+## Deploying Mobile Devices 
+* Mobile devices are prolific and very useful in both personal and corporate environments.  
+
+**Diferent deployment models**  
+1. Corporate owned, business only (COBO).
+ * It is company owned and they decide what to do with that device.  
+2. Corporate owned, personally enabled (COPE).
+ * Everyone has the same device and it makes it much easier to control devices.  
+3. Choose your own device (CYOD). 
+4. Bring your own device (BYOD).  
+
+* Consider mobile devices management for privacy and productivity.  
+
+## Mobile enforcement 
