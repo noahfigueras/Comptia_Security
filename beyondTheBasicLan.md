@@ -166,3 +166,28 @@ Static Hosts are all the external devices that are conected t oa network like: p
 * Consider mobile devices management for privacy and productivity.  
 
 ## Mobile enforcement 
+**Sideloading:** Prevention of downloading applications to your phone from other placess than the googlestore or AppleStore.  
+**Carrier Unlocking:** Unlovk a Phone locked by service provider.  
+**Rooting/jailbraking:** Get root access in your phone and install custom firmware.  
+
+## Physical Controls
+1. **Deterrent Physical Controls**
+ * Is designed to prevent bad guys from trying to actually ger in to your physical infrastructure.  
+ * Outside lightning, alert signs, security guards.
+2. **Preventative Physical Controls**
+ * Fences, Gates, Barricades, K Ratings, Locks.  
+ * Cabling Distribution Systems.  
+ * Good Key Management.  
+3. **Detective Physical Controls**
+ * Detect that something naughty is taking place.
+ * Alarms, Cameras, Motion detectors, Infrared detectors, log files.  
+ 
+## HVAC 
+HVAC systems control the temperature of the computers, servers or machines (air-conditioning systems).  
+
+**Infrared Cameras:**  These cameras look on the infrared range to control heat.  
+**Hot & cold aisles:** Systems to share all the cold air through the room in order for the servers not to overheat.  
+**Securing HVAC:** Always leave an air gap and use VLAN for isolation of the system.  
+
+**Make sure you always keep the server room cool and dry**  
+
