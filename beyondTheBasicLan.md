@@ -191,3 +191,25 @@ HVAC systems control the temperature of the computers, servers or machines (air-
 
 **Make sure you always keep the server room cool and dry**  
 
+## Fire Supression 
+**Fire extinguisher classes**  
+ * **A:** It is designed for ordinary solid combustibles like burning wood.  
+ * **B:** Designed for flammable liquids and gases, like gas.   
+ * **C:** Designed for energized electrical equipment.  
+ * **D:** Designed for combustible metals.  
+ * **K:** Designed for Kitchens and that is for oils and fats.  
+ 
+ **For a server room we are going to need a class C fire extinguisher specific for electrical equipment**  
+ 
+ **Fire supressors**  
+ **Halon:** not very environmentally friendly.  
+ **FM-200:** It is the standard type of material for fire supression in server rooms.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
