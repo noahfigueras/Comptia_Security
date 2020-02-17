@@ -91,5 +91,14 @@ Because encrypting&decrypting consumes a lot of cpu usage and can easily burn on
 **DDOS Mitigator:** will send out an alert to emergency response services which assist in traffic flow to the site under attack.  
 
 ## Secure Code Development 
+**Waterfall Model**  
+1. Requirements.
+2. Design.
+3. Implementation.
+4. Verification.
+5. Maintenance. 
+
+**Agile Methodology**  
+
 
 
