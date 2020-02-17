@@ -30,9 +30,15 @@
 ## Know your Protocols
 **IP adresses**  
 * IPV-4 -> **EX.** 172.16.254.1
+* IPV-6 -> **EX.** 2001:0DB8:85A3:0000:8A2E:0370:7334  
 
 **Private IP adress**  
 1. Any IP adress that starts with the number **10**.  
 2. Any IP adress that ranges from **172.16 - 172.31**.
-3. 
+3. Any IP adress that starts with **192.168**.  
+
+**Transport Protocols**  
+* **TCP:**  Connexion oriented type of protocol (),nds a lot of packages and it is how the internet works. 
+* **UDP:** 
+
 
