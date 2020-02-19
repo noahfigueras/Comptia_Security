@@ -99,6 +99,20 @@ Because encrypting&decrypting consumes a lot of cpu usage and can easily burn on
 5. Maintenance. 
 
 **Agile Methodology**  
+Agile and Flexibile methodology to get software out of the door.  
+
+**DevOps**  
+We include Development and Operations in a plan.  
+PLAN -> CREATE -> VERIFY -> PACKAGE -> RELEASE -> CONFIGURE -> MONITOR -> PLAN ...  
+* cure Development Operations: 
+ * Security automation tools.
+ * Change management/version control.  
+ * Baseline (Crytical Security Objectives).  
+ * Consider immutable systems. 
+ * Infrastructure as code.
+ 
+ 
+
 
 
 
