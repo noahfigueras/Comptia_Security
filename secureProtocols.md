@@ -111,8 +111,28 @@ PLAN -> CREATE -> VERIFY -> PACKAGE -> RELEASE -> CONFIGURE -> MONITOR -> PLAN .
  * Consider immutable systems. 
  * Infrastructure as code.
  
- 
+ ## Secure Deployment Concepts
+1. Proper error handling is absolutely critical. 
+2. Proper input validation.
+ * In case someone enters malicious code inside an email input or so. 
+3. Normalization.
+ * Stored procedures is going to prote ct databases.
+4. Encryption/code signing.
+ * We digitally sign our code.
+5. Obfuscation.
+ * Using minifiers to make our code difficult to understand and rerse enginer.
+6. Reuse Code and get rid of dead code.
+7. Server-side vs. client-side execution.
+8. Memomry management. 
+9. Be careful with third party library vulnerabilities and keep them always up to date.  
+10. Data Exposure, our jobs as developers is to reduce the exposure of code or private information so: use lots and lots of encryption.  
 
+## Code quality and Testing 
+Once your code is developed, the first thing you are going to want to do is test your code.  
+**Static code analyzers:** they look through the code and find standart type of errors that often developers do. It just reads the code doesn't run it.  
+**Dynamic code analysis:** It actually runs the code in order to find logic errors, security holes, typing in SQL injections, memory leak...  
+**Staging:** Start to create more and more realistic world environments to see how your code performs in thos kind of situations.  
+**Stress test:** Do a test to see if there's a memory leak or if the databases can keep up, etc.  
 
 
 
