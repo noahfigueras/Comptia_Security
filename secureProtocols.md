@@ -104,7 +104,7 @@ Agile and Flexibile methodology to get software out of the door.
 **DevOps**  
 We include Development and Operations in a plan.  
 PLAN -> CREATE -> VERIFY -> PACKAGE -> RELEASE -> CONFIGURE -> MONITOR -> PLAN ...  
-* cure Development Operations: 
+* Secure Development Operations: 
  * Security automation tools.
  * Change management/version control.  
  * Baseline (Crytical Security Objectives).  
