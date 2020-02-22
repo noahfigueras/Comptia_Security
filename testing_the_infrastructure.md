@@ -49,7 +49,7 @@ Social engineering principles are focused more on people's behavior as apposed t
 **White box:** Attackers have extensive knowledge about the target.  
 **black box:** Attackers know nothing about the target, more like strangers (external hacking).  
 **gray box:** Attackers know some information but not a lot.  
-
+  
 **Types of discoveries**
 * Passive discovery (whois lookup), Semi-passive discovery(Looking a Website) , Active discovery (Attacking the server).  
 
