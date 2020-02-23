@@ -30,7 +30,27 @@ Social engineering principles are focused more on people's behavior as apposed t
 **Watering hole attack:** An attempt to infect websites that a group of end users would normally go to gain access to their information or network.  
 
 ## Attacking Websites
+**CLF:** Common Log Files are the standard types of logs that every single type of web server generates and they all generate it in the same format.  
+**EX:** 127.0.0.1 -- [10/0ct/2017:10:05:24 - 0600] "GET /CompTIA09_small.gif HTTP/1.0" 200 *42213(Bytes in the object returned to client).*  
+**Web application attacks**  
+1. Cross-site scripting XSS.  
+ * Client-side script injected into trusted web sites. **Ex:** `<script>source=http://evilsite</script>`
+2. XML injections.  
+ * Inserts XML information that should be there altering the logic of the program.
+ **Ex:** http://www.example.com/Newuser.php?user=mike&password=12345&PRODUCT=VoucherGeneric&price=50.00&email-mike@totalsem.com  
 
+## Attacking Applications
+**Injection Attacks**  
+Injecting extra stuff into an application through an input in order to brake it.  
+* **Code injection:** Add extra code to the application to make it do something that it shouldn't be doing.  
+* **Command injection:** Uses the application to get to the underlying operating system.  
+* **SQL injection:** Type SQL commands through input in order to communicate and retrieve information from the database.  
+* **LDAP injection:** LDAP it's used in order to authenticate user and it can be modified to get some information. It is based on X.500 protocol.  
+
+**Buffer Overflow**  
+Every time we enter data into an application it goes into a buffer. A buffer is just a part of memory that is set aside to store the data before it actually gets put into the application itself. A *buffer overflow* simply means that we insert so much data into the buffer that the buffer blows up.  
+
+**Integer Overflow:** Bit Overflow with a defined integer value.  
 
 ## Exploiting a Target 
 **Penetration Testing Steps**  
@@ -57,4 +77,11 @@ Social engineering principles are focused more on people's behavior as apposed t
 * We are going to use Kali Linux and Metasploit Framework.  
 
 ## Vulnerability impact 
+**Embedded systems:** It is simply an immutable system that never changes.  
+**Lack of vendor support:** if a company is not selling more a specific product we are not going to be able to patch it and keep it up to date.  
+**Weak configurations:** it is very important for us to change the default config from a hardware or software and provide the best possible configurations we can.  
+**Misconfiguration:** We have a configuration but we have done something incorrectly.  
+**Improperly configured accounts:** we have an user account with incorrect rights,privileges and permissions active.  
+**Vulnerable business processes:**  
+**Memory/buffer vulnerabilities:** resource exhaustion, memory leak, integer overflow, buffer overflow, pointer difference, DSL injection.  
 
