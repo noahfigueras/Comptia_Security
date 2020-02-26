@@ -137,11 +137,15 @@ Sometimes, every once in a while really bad incidents take place. We're talking 
 10. Peripherals(Printers, cameras, scanners, faxes).
 
 ## Backups
+We can do Full Backups every day in order to save all the information in your system bu it is very time consuming and it takes a lot of memory as well.  
+Instead, what we can do is do a backup of the system first and then every time there's a change update it to the backup.  
 
-
-
-
-
+**Differential Backup:** Backup of all changes since the last full backup.  
+**Incremental Backup:** Only backs up changes made from last backup.  
+**Snapshots:** A very good way of making a copy of something that happened in the past.  
+**Local Backups:** tapes, external drives.
+**Offsite Backup:** 
+**Cloud Backup:** very powerful to keep your data save. 
 
 
 
